@@ -4,7 +4,7 @@ import "./Footer.scss";
 const Footer: React.FC = () => {
   return (
     <div className="footer-wrapper">
-      <div className="mx">
+      <div className="mx pad">
         <div className="footer-content">
           <p>[Your Name]</p>
           <div className="border-right"></div>

@@ -7,11 +7,13 @@ import "./Hero.scss";
 const Hero: React.FC = () => {
   return (
     <div className="hero-wrapper">
-      <div className="mx">
+      <div className="mx pad">
         <div className="hero-content">
           <div className="image-content">
-            <div className="box"></div>
-            {/* <img src={ImageOne} alt="" /> */}
+            <img
+              src="https://bestorganicfood.sg/cdn/shop/products/greenapples01.png?v=1622785017"
+              alt=""
+            />
             <h5>ux designer @ company name</h5>
             <p>
               About 4 sentences or so describing things you worked on and what
@@ -19,8 +21,10 @@ const Hero: React.FC = () => {
             </p>
           </div>
           <div className="image-content">
-            {/* <img src={ImageTwo} alt="" /> */}
-            <div className="box"></div>
+            <img
+              src="https://bestorganicfood.sg/cdn/shop/products/greenapples01.png?v=1622785017"
+              alt=""
+            />
 
             <h5>ux designer @ company name</h5>
             <p>
@@ -29,8 +33,10 @@ const Hero: React.FC = () => {
             </p>
           </div>
           <div className="image-content">
-            {/* <img src={ImageThree} alt="" /> */}
-            <div className="box"></div>
+            <img
+              src="https://bestorganicfood.sg/cdn/shop/products/greenapples01.png?v=1622785017"
+              alt=""
+            />
 
             <h5>ux designer @ company name</h5>
             <p>

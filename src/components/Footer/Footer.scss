@@ -1,5 +1,9 @@
 .footer-wrapper {
-  padding: 38px 62px 0px;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+
   .footer-content {
     display: flex;
     align-items: center;
