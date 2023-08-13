@@ -1,0 +1,19 @@
+.footer-wrapper {
+  padding: 38px 62px 0px;
+  .footer-content {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-top: 2px solid rgb(206, 200, 200);
+    p {
+      padding-top: 18px;
+      font-size: 13px;
+      color: gray;
+    }
+    .border-right {
+      border-right: 2px solid rgb(206, 200, 200);
+      height: 20px;
+      margin-top: 16px;
+    }
+  }
+}

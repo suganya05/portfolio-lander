@@ -1,0 +1,28 @@
+.hero-wrapper {
+  padding: 20px 62px;
+  .hero-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+    .image-content {
+      margin-top: 70px;
+      .box {
+        width: 450px;
+        height: 350px;
+        background: rgb(225, 220, 220);
+      }
+      h5 {
+        margin-top: 12px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: var(--font-bold);
+      }
+      p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 8px;
+      }
+    }
+  }
+}

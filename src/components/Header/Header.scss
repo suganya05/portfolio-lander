@@ -1,48 +1,11 @@
 .header-wrapper {
-  
+  padding: 20px 62px;
   .header-content {
-    
-    .title{
-      border-bottom: 2px solid grey;
-      h1{
-        font-size: 15px;
-      }
-      
-    }
-    .content{
-      
-      display: block;
-      justify-content: center;
-      align-items: center;
-      .image-container{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        img{
-          width: 400px;
-          height: 350px;
-        }
-      }
-      .content-container{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        padding-left:70px ;
-        padding-right:50px ;
-      }
-    }
-
-    .footer{
-
-      display: flex;
-      justify-content: flex-start;
-      gap: 10px;
-      border-top: 2px solid grey;
-     
+    border-bottom: 2px solid rgb(206, 200, 200);
+    p {
+      text-transform: uppercase;
+      color: gray;
+      margin-bottom: 8px;
     }
   }
 }
