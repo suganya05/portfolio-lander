@@ -6,12 +6,16 @@
     gap: 20px;
     .image-content {
       margin-top: 70px;
+      max-width: 460px;
+      width: 100%;
+      max-height: 350px;
+      height: 100%;
       img {
-        max-width: 350px;
+        max-width: 460px;
         width: 100%;
         max-height: 350px;
         height: 100%;
-        object-fit: contain;
+        // object-fit: contain;
       }
       h5 {
         margin-top: 12px;
