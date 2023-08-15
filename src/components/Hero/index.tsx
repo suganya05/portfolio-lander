@@ -1,10 +1,16 @@
 import React from "react";
-// import ImageOne from "../../assets/images/image1.jpg";
-// import ImageTwo from "../../assets/images/image2.jpg";
-// import ImageThree from "../../assets/images/image3.jpg";
+import Slider from "react-slick";
 import "./Hero.scss";
 
 const Hero: React.FC = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+  };
   return (
     <div className="hero-wrapper">
       <div className="mx pad">
@@ -15,10 +21,38 @@ const Hero: React.FC = () => {
               alt=""
             />
             <h5>ux designer @ company name</h5>
-            <p>
-              About 4 sentences or so describing things you worked on and what
-              you were able to achieve in this role
-            </p>
+            <Slider {...settings}>
+              <div>
+                <p>
+                  About 4 sentences or so describing things you worked on and
+                  what you were able to achieve in this role
+                </p>
+              </div>
+              <div>
+                <p>
+                  About 4 sentences or so describing things you worked on and
+                  what you were able to achieve in this role
+                </p>
+              </div>
+              <div>
+                <p>
+                  About 4 sentences or so describing things you worked on and
+                  what you were able to achieve in this role
+                </p>
+              </div>
+              <div>
+                <p>
+                  About 4 sentences or so describing things you worked on and
+                  what you were able to achieve in this role
+                </p>
+              </div>
+              <div>
+                <p>
+                  About 4 sentences or so describing things you worked on and
+                  what you were able to achieve in this role
+                </p>
+              </div>
+            </Slider>
           </div>
           <div className="image-content">
             <img
